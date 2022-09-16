@@ -17,8 +17,28 @@ HuggingFace Transformers' [DistilBERT](https://huggingface.co/docs/transformers/
 
 For steps to make the dataset check out the [model](https://github.com/daspartho/predict-subreddit/blob/main/model.ipynb) notebook in the repo or open in [Colab](https://colab.research.google.com/github/daspartho/predict-subreddit/blob/main/model.ipynb).
 
-
 Model hosted [on HuggingFace](https://huggingface.co/daspartho/subreddit-predictor)
+
+# Examples
+![](examples/0.png)
+![](examples/1.png)
+![](examples/2.png)
+![](examples/3.png)
+![](examples/4.png)
+![](examples/5.png)
+![](examples/6.png)
+![](examples/7.png)
+![](examples/8.png)
+![](examples/9.png)
+![](examples/10.png)
+![](examples/11.png)
+![](examples/12.png)
+![](examples/13.png)
+![](examples/14.png)
+![](examples/15.png)
+![](examples/16.png)
+![](examples/17.png)
+![](examples/18.png)
 
 # Contributing
 If you want to contribute code, simply create a pull request. If you have an idea, create an issue and the developers will look into it!
