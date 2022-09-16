@@ -40,7 +40,7 @@ Model hosted [on HuggingFace](https://huggingface.co/daspartho/subreddit-predict
 ![](examples/17.png)
 ![](examples/18.png)
 
-# Note
+# Limitations and bias
 - Since the model is trained on top 125 subreddits ([for reference](http://redditlist.com/)) therefore it can only categorise within those subreddits.
 - Some subreddits have a specific format for their post title, like [r/todayilearned](https://www.reddit.com/r/todayilearned) where post title starts with "TIL" so the model becomes biased towards "TIL" --> r/todayilearned. This can be removed by cleaning the dataset of these specific terms.
 - In some subreddit like [r/gifs](https://www.reddit.com/r/gifs/), the title of the post doesn't matter much, so the model performs poorly on them.
