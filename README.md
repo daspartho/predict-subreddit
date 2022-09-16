@@ -15,7 +15,7 @@ Dataset hosted [on HuggingFace](https://huggingface.co/datasets/daspartho/subred
 
 HuggingFace Transformers' [DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert), is fine-tuned on the [dataset](https://huggingface.co/datasets/daspartho/subreddit-posts) of post titles labelled with their respective subreddit.
 
-For steps to make the dataset check out the [model](https://github.com/daspartho/predict-subreddit/blob/main/model.ipynb) notebook in the repo or open in [Colab](https://colab.research.google.com/github/daspartho/predict-subreddit/blob/main/model.ipynb).
+For steps to make the model check out the [model](https://github.com/daspartho/predict-subreddit/blob/main/model.ipynb) notebook in the repo or open in [Colab](https://colab.research.google.com/github/daspartho/predict-subreddit/blob/main/model.ipynb).
 
 Model hosted [on HuggingFace](https://huggingface.co/daspartho/subreddit-predictor)
 
