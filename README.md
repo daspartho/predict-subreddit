@@ -3,6 +3,8 @@ An NLP model that predicts subreddit based on the title of a post.
 
 Play with it on [HuggingFace Space](https://huggingface.co/spaces/daspartho/predict-subreddit)
 
+[Post](https://www.reddit.com/r/MachineLearning/comments/xgijzo/p_made_an_nlp_model_that_predicts_subreddit_based/) on r/MachineLearning
+
 # Data Collection
 
 The model was trained using the titles of the top 1000 posts from the top 125 subreddits scraped using [PRAW](https://praw.readthedocs.io/en/stable/index.html).
