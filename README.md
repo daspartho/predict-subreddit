@@ -7,7 +7,7 @@ Play with it on [HuggingFace Space](https://huggingface.co/spaces/daspartho/pred
 
 # Data Collection
 
-The model was trained using the titles of the top 1000 posts from the top 125 subreddits scraped using [PRAW](https://praw.readthedocs.io/en/stable/index.html).
+The model was trained using the titles of the top 1000 posts from the top 250 subreddits scraped using [PRAW](https://praw.readthedocs.io/en/stable/index.html).
 
 For steps to create the dataset check out the [dataset](https://github.com/daspartho/predict-subreddit/blob/main/dataset.ipynb) notebook in the repo or open in [Colab](https://colab.research.google.com/github/daspartho/predict-subreddit/blob/main/dataset.ipynb).
 
@@ -43,7 +43,7 @@ Model hosted [on HuggingFace](https://huggingface.co/daspartho/subreddit-predict
 ![](examples/18.png)
 
 # Limitations and bias
-- Since the model is trained on top 125 subreddits ([for reference](http://redditlist.com/)) therefore it can only categorise within those subreddits.
+- Since the model is trained on top 250 subreddits ([for reference](http://redditlist.com/)) therefore it can only categorise within those subreddits.
 - Some subreddits have a specific format for their post title, like [r/todayilearned](https://www.reddit.com/r/todayilearned) where post title starts with "TIL" so the model becomes biased towards "TIL" --> r/todayilearned. This can be removed by cleaning the dataset of these specific terms.
 - In some subreddit like [r/gifs](https://www.reddit.com/r/gifs/), the title of the post doesn't matter much, so the model performs poorly on them.
 
