@@ -1,4 +1,7 @@
 # Predict Subreddit
+
+[![Generic badge](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue.svg)](https://huggingface.co/spaces/daspartho/predict-subreddit)
+
 An NLP model that predicts subreddit based on the title of a post.
 
 Play with it on [HuggingFace Space](https://huggingface.co/spaces/daspartho/predict-subreddit)
