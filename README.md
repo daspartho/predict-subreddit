@@ -12,9 +12,23 @@ Play with it on [HuggingFace Space](https://huggingface.co/spaces/daspartho/pred
 
 The model was trained using the titles of the top 1000 posts from the top 250 subreddits scraped using [PRAW](https://praw.readthedocs.io/en/stable/index.html).
 
-For steps to create the dataset check out the [dataset](https://github.com/daspartho/predict-subreddit/blob/main/dataset.ipynb) notebook in the repo or open in [Colab](https://colab.research.google.com/github/daspartho/predict-subreddit/blob/main/dataset.ipynb).
-
 Dataset hosted [on HuggingFace](https://huggingface.co/datasets/daspartho/subreddit-posts)
+
+Steps to create the dataset:
+
+- Make sure to install the requirements using `pip install -r requirements.txt`
+- Create a `.env` file consisting of reddit authentication info like this
+```
+ID = <YOUR_ID>
+SECRET = <YOUR_SECRET>
+AGENT = <YOUR_AGENT>
+```
+- Now run the script to create the dataset like this 
+```
+python3 dataset.py <npage> <dfilename>
+``` 
+`npage` is the no of pages to scrape for top subreddits from redditlist.com (1 page => 125 subs) and `filename` is the csv filename to save the dataset to.
+- After the above steps are run, a csv file will be created under give filename consisting of title and subreddit pairs.
 
 # Modelling
 

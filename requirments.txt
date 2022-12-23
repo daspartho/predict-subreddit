@@ -1,0 +1,4 @@
+praw
+requests
+beautifulsoup4
+python-dotenv
