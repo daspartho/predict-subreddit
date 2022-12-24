@@ -14,7 +14,7 @@ The model was trained using the titles of the top 1000 posts from the top 250 su
 
 Dataset hosted [on HuggingFace](https://huggingface.co/datasets/daspartho/subreddit-posts)
 
-Steps to create the dataset:
+### Steps to create the dataset using [dataset.py](https://github.com/daspartho/predict-subreddit/blob/main/dataset.py) script:
 
 - Make sure to install the requirements using `pip install -r requirements.txt`
 - Create a `.env` file consisting of reddit authentication info like this
